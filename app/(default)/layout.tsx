@@ -8,19 +8,19 @@ import "./globals.css";
 import { SiteFooter } from "@/components/layout/footer";
 import Header from "@/components/layout/header";
 export const metadata: Metadata = {
-  metadataBase: new URL("https://yourdomain.com"), // Change to your project's domain
+  metadataBase: new URL("https://foundersforge.pro"), // Change to your project's domain
   title: {
-    default: "Next-Shadcn-Sanity Blog",
-    template: "%s | Next-Shadcn-Sanity Blog",
+    default: "Curated Startup Ideas, Sent Weekly for Entrepreneurs",
+    template: "%s | Founders Forge - Curated Startup Ideas, Sent Weekly for Entrepreneurs",
   },
   description:
-    "A modern blogging platform powered by Next.js 14, ShadcnUI, and Sanity.io.",
+    "Join 5,000+ elite entrepreneurs getting curated startup ideas and comphrensive guides on building a product in million dollar niches. Launch your empire this weekend.",
   openGraph: {
-    title: "Next-Shadcn-Sanity Blog",
+    title: "Curated Startup Ideas, Sent Weekly for Entrepreneur",
     description:
-      "Explore the future of blogging with our platform powered by Next.js 14, ShadcnUI, and Sanity.io.",
-    url: "https://yourdomain.com", // Change to your project's URL
-    siteName: "Next-Shadcn-Sanity Blog",
+      "Join 5,000+ elite entrepreneurs getting curated startup ideas and comphrensive guides on building a product in million dollar niches. Launch your empire this weekend.",
+    url: "https://foundersforge.pro",
+    siteName: "Founders Forge",
     locale: "en_US",
     type: "website",
   },
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Next-Shadcn-Sanity Blog",
+    title: "Founders Forge",
     card: "summary_large_image",
   },
   verification: {

@@ -9,21 +9,19 @@ export type SiteConfig = {
   };
   contacts: {
     email: string;
-    phone: string;
   };
 };
 export const siteConfig: SiteConfig = {
-  name: "next-shadcn-sanity-blog",
-  title: " Next Blog Template ✨",
+  name: "Exploding Insights",
+  title: "Startup Ideas, Sent Weekly",
   description:
-    "Introducing a Next.js 14 blogging platform, elegantly designed with ShadcnUI for a seamless and modern user interface, and powered by Sanity.io as its robust headless CMS.",
+    "Join 11,000+ elite entrepreneurs getting curated startup ideas in million dollar niches. Launch your empire this weekend.",
   url: "",
   ogImage: "/og.jpg",
   links: {
-    github: "https://github.com/kaganmert/next-shadcn-sanity-blog",
+    github: "https://github.com/kodaneflash/shadnewcn",
   },
   contacts: {
-    email: "contact@example.com",
-    phone: "08000 000 000",
+    email: "hello@explodinginsights.com",
   },
 };
